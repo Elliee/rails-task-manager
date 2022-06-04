@@ -1,4 +1,4 @@
-<h1>My Tasks</h1>
+<h1 class="text-center">My Tasks</h1>
 
 <ul style="list-style-type: none">
   <% @tasks.each do |task | %>
@@ -17,8 +17,7 @@
   <% end %>
 </ul>
 
-<button type="button" class="btn btn-primary">
+
   <%= link_to new_task_path do %>
     <i class="fa fa-plus"></i> Create new task
   <% end %>
-</button>
